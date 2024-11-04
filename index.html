@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
     <!-- tailwindcss link -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- tailwindcss link -->
@@ -51,20 +51,209 @@
 
    <!-- new section start here -->
 
-   <section class="w-11/12 mx-auto grid-cols-12">
+   <section class="w-11/12 grid gap-5 mx-auto grid-cols-12">
     <!-- right section start -->
      <section class="lg:col-span-9 col-span-12">
-        <h3 class="lg:text-2xl text-lg font-semibold uppercase">all news</h3>
+        <div class="flex items-center justify-between  border-black lg:border-b-4 border-b-2">
+            <h3 class="lg:text-2xl text-lg font-semibold uppercase lg:py-5 py-3">all news</h3>
         <div class="flex items-center gap-2 capitalize">
            <p>filter by:</p> 
            <p class="font-bold">stocks</p>
            <i class="fa-solid fa-chevron-down"></i>
         </div>
+        </div>
+        <h3 class="capitalize font-semibold mt-6 mb-3">individual stocks</h3>
+        <!-- first card section starth  -->
+        <div class="flex flex-col lg:flex-row gap-5 border border-[#DDE2E5] p-3 mb-6 ">
+          <img class="w-full h-44 object-cover lg:h-fit lg:size-[150px]" src="images/Rectangle 6.png" alt="">
+          <div class="">
+            <div class="flex items-center gap-2">
+                <span class="caption">dow joes</span>
+                <span class="caption">Nasdaq</span>
+                <span class="caption">S & P 500</span>
+              </div>
+    
+              <div class="mt-4">
+                <h3 class="lg:text-lg font-semibold text-[#333333]pb-1">Nzd/usd forex technical analysis - traders will be monitoring fed for future rate hike clues</h3>
+                <p class="lg:text-base text-sm text-[#616161]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+              </div>
+              
+              <div class="flex items-center gap-3 md:gap-5 md:text-base text-sm">
+                <p class="text-[#616161]">06 September 2022</p>
+                <p>by <span class="text-[#5677AC] font-semibold uppercase cursor-pointer">Shouvik Nath</span></p>
+    
+              </div>
+          </div>
+        </div>
+        <!--first card section end -->
+
+
+        <!--second card start   -->
+        <div class="flex flex-col lg:flex-row border p-3 gap-5 mb-5">
+          <img class="w-full h-44 object-cover lg:h-fit lg:size-[150px]" src="images/Rectangle 7.png" alt="">
+          <div>
+            <div>
+              <span class="caption">Dow jones</span>
+              <span class="caption">Nasdaq</span>
+              <span class="caption">S & P 500</span>
+            </div>
+  
+            <div>
+              <h3 class="text-lg font-medium">Rupee inches 5 paise higher to 77.99 against us dollar in early trade</h3>
+              <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+            </div>
+            <div class="flex items-center gap-3">
+              <p class="text-gray-500 font-semibold">06 September 2022</p>
+              <p class="font-semibold text-gray-500">by <span class="uppercase text-[#5677AC]"> Amado </span></p>
+            </div>
+  
+          </div>
+        </div>
+        <!--second card end   -->
+
+
+      <!-- third card start -->
+        <div class="flex flex-col lg:flex-row border p-3 mb-20 gap-6">
+         <div>
+          <img class="w-full h-44 object-cover lg:h-fit lg:size-[220px]" src="images/Rectangle 8.png" alt="">
+         </div>
+           <div>
+            <div class="flex gap-1 ">
+              <span class="caption">wall street</span>
+              <span class="caption">Analyst </span>
+              <span class="caption">coverage</span>
+            </div>
+            <div>
+              <h2 class="text-lg font-semibold m">Rupee inches 5 paise higher to 77.99 against us dollar in early trade</h2>
+              <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+            </div>
+            <div class="flex items-center gap-4">
+              <p class="text-gray-500 text-lg">06 September 2022</p>
+              <p class="text-lg placeholder:">by <span class="uppercase text-[#5677AC]">Amado </span></p>
+            </div>
+           </div>
+        </div> 
+
+      <!-- third card end -->
+
+      
+      <!-- forth card start  -->
+       <div">
+        <h3 class="capitalize text-lg font-semibold">stock sectors</h3>
+       </div>
+
+       <div class="flex flex-col lg:flex-row gap-6 border p-3 mb-6 mt-4">
+        <div>
+          <img class="w-full h-44 object-cover lg:h-fit lg:size-[220px]" src="images/Rectangle 6 (1).png" alt="">
+        </div>
+        <div>
+          <div class="flex items-center gap-1">
+            <span class="caption">Dow jones</span>
+            <span class="caption">Nasdaq</span>
+            <span class="caption">S & P 500</span>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold">Rupee inches 5 paise higher to 77.99 against us dollar in early trade</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+          </div>
+          <div>
+            <p>06 September 2022</p>
+            <p class="text-lg font-semibold">by <span class="uppercase font-semibold text-[#5677AC]">Shouvik Nath</span></p>
+          </div>
+        </div>
+       </div>
+       
+      <!-- forth card start  -->
+       <!-- fith card start  -->
+       <div class="flex flex-col lg:flex-row gap-6 border p-3 mb-6 mt-4">
+        <div>
+          <img class="w-full h-44 object-cover lg:h-fit lg:size-[220px]" src="images/Rectangle 6 (2).png" alt="">
+        </div>
+        <div>
+          <div class="flex items-center gap-1">
+            <span class="caption">Dow jones</span>
+            <span class="caption">Nasdaq</span>
+            <span class="caption">S & P 500</span>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold">Rupee inches 5 paise higher to 77.99 against us dollar in early trade</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+          </div>
+          <div>
+            <p>06 September 2022</p>
+            <p class="text-lg font-semibold">by <span class="uppercase font-semibold text-[#5677AC]">Shouvik Nath</span></p>
+          </div>
+        </div>
+       </div>
+       <!-- fith card end -->
+      
+
+       <!--six card start   -->
+       <h3 class="capitalize text-xl font-semibold">stock market topics</h3>
+       <div class="flex flex-col lg:flex-row gap-6 border p-3 mb-6 mt-4">
+        <div>
+          <img class="w-full h-44 object-cover lg:h-fit lg:size-[220px]" src="images/Rectangle 6 (2).png" alt="">
+        </div>
+        <div>
+          <div class="flex items-center gap-1">
+            <span class="caption">Dow jones</span>
+            <span class="caption">Nasdaq</span>
+            <span class="caption">S & P 500</span>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold">Rupee inches 5 paise higher to 77.99 against us dollar in early trade</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+          </div>
+          <div>
+            <p>06 September 2022</p>
+            <p class="text-lg font-semibold">by <span class="uppercase font-semibold text-[#5677AC]">Shouvik Nath</span></p>
+          </div>
+        </div>
+       </div>
+       <!--six card end  -->
+
+
+
      </section>
      <!-- right section end -->
       <!-- left section start -->
-     <section class="lg:col-span-3 col-span-12 ">
+     <section class="lg:col-span-3 col-span-12 mb-5 ">
+      <div class="border-black lg:border-b-4 border-b-2">
+        <h3 class="lg:text-2xl text-lg font-semibold uppercase lg:py-5 py-3">featured</h3>
+      </div>
+      <div>
+        <h3 class="capitalize font-semibold mt-6 mb-3">Daily Rundowns</h3>
+      </div>
+       <!-- earning sectin start -->
+       <div>
+        <h4 class="capitalize font-semibold mb-2">earnings:</h4>
+        <div>
+          <span class="rakib">Csan</span>
+          <span class="rakib">Alya</span>
+          <span class="rakib">Gato</span>
+          <span class="rakib">css</span>
+          <br> <br>
+          <span class="rakib">VZLA</span>
+          <span class="rakib">MFH</span>
+        </div>
+      </div>
+       <!-- earning sectin end -->
 
+       <!-- movers section start -->
+       <div>
+        <h4 class="capitalize font-semibold mb-2">earnings:</h4>
+        <div>
+          <span class="rakib">Csan</span>
+          <span class="rakib">Alya</span>
+          <span class="rakib">Gato</span>
+          <span class="rakib">css</span>
+          <br> <br>
+          <span class="rakib">VZLA</span>
+          <span class="rakib">MFH</span>
+        </div>
+      </div>
+       <!-- movers section end -->
+      
      </section>
      <!-- left sectin end -->
    </section>
